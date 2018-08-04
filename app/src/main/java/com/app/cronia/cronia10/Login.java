@@ -27,6 +27,7 @@ public class Login extends AppCompatActivity {
                 Intent go_to_main = new Intent(Login.this, MainActivity.class);
                 startActivity(go_to_main);
             }
+            // Deniz Alkan tarafından değpiştirildi
         });
 
     }
