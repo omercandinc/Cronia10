@@ -4,8 +4,5 @@
     android:layout_height="match_parent"
     android:background="@drawable/login_logo">
 
-    // deneme
-
-    // deneme 2
 
 </android.support.constraint.ConstraintLayout>
