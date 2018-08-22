@@ -59,25 +59,14 @@
         android:theme="@style/TextStyle2" />
 
     <TextView
-        android:id="@+id/merhaba"
-        style="@style/TextStyle"
+        style="@style/TextStyle4"
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="25dp"
-        android:text="Merhaba,
-Cronia’ya hoş geldin" />
-
-    <TextView
-        style="@style/TextStyle4"
-        android:layout_width="266dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/merhaba"
-        android:layout_marginTop="118.3dp"
-        android:text="Kaldığınız yerden devam edin" /> /
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="117dp"
+        android:text="Merhaba Cronia'ya hoş geldin!" /> /
 
     <ImageView
         android:id="@+id/login_bottom"
