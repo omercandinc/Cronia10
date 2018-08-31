@@ -16,6 +16,17 @@
         android:layout_alignParentTop="true"
         android:src="@drawable/main_rectangle"></ImageView>
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txt1"
+        android:layout_column="1"
+        android:layout_marginEnd="46dp"
+        android:layout_row="0"
+        app:srcCompat="@drawable/vekt_r_ak_ll_nesne_3" />
+
     <TextView
         android:id="@+id/txt1"
         android:layout_width="198dp"
@@ -51,7 +62,7 @@ Gece koşusundasın"
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
         android:layout_height="509dp"
-        android:layout_above="@+id/ebem"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="150dp"
         android:layout_weight="8"
@@ -259,7 +270,6 @@ Gece koşusundasın"
 
         </android.support.v7.widget.CardView>
 
-        <!-- Column 2 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -287,7 +297,7 @@ Gece koşusundasın"
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Calendars"
+                    android:text="Friends"
                     android:textAlignment="center"
                     android:textColor="@android:color/black"
                     android:textSize="18sp"
@@ -297,33 +307,49 @@ Gece koşusundasın"
 
         </android.support.v7.widget.CardView>
 
+        <!-- Column 2 -->
+
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="1">
+            android:layout_rowWeight="0.5">
 
-
-            <ImageView
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="113dp"
-                android:src="@drawable/vekt_r_ak_ll_nesne_2" />
+                android:layout_height="match_parent"
+                android:background="@drawable/vekt_r_ak_ll_nesne_2"
+                android:orientation="horizontal"
+                android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vekt_r_ak_ll_nesne_5" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vekt_r_ak_ll_nesne_4" />
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/vekt_r_ak_ll_nesne_6" />
+
+            </LinearLayout>
 
         </android.support.v7.widget.CardView>
 
 
     </GridLayout>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/txt1"
-        android:layout_marginEnd="54dp"
-        app:srcCompat="@drawable/vekt_r_ak_ll_nesne_3" />
 
 
 </android.widget.RelativeLayout>
