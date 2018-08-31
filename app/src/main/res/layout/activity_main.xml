@@ -28,7 +28,7 @@
         android:alignmentMode="alignMargins"
         android:columnCount="2"
         android:columnOrderPreserved="false"
-        android:paddingTop="3dp"
+        android:paddingTop="5dp"
         android:rowCount="2">
 
         <!-- Row 1 -->
