@@ -3,6 +3,8 @@
     android:id="@+id/actionbarT"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
     app:theme="@style/Base.Theme.AppCompat.CompactMenu" >
 
     <LinearLayout
@@ -10,7 +12,9 @@
         android:layout_height="match_parent"
         android:background="@drawable/vekt_r_ak_ll_nesne_2"
         android:orientation="horizontal"
-         >
+
+        android:paddingBottom="9dp"
+        android:paddingTop="12dp">
 
         <ImageView
             android:id="@+id/imageView4"
