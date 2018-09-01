@@ -10,7 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/vekt_r_ak_ll_nesne_2"
+        android:background="@drawable/main_bottomtoolbar_bg"
         android:orientation="horizontal"
 
         android:paddingBottom="9dp"
@@ -21,21 +21,21 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/vekt_r_ak_ll_nesne_5" />
+            app:srcCompat="@drawable/main_dashboardbutton" />
 
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/vekt_r_ak_ll_nesne_4" />
+            app:srcCompat="@drawable/main_homebutton" />
 
         <ImageView
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/vekt_r_ak_ll_nesne_6" />
+            app:srcCompat="@drawable/main_profilebutton" />
 
     </LinearLayout>
 

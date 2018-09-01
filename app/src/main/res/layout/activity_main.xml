@@ -25,7 +25,7 @@
         android:layout_column="1"
         android:layout_marginEnd="46dp"
         android:layout_row="0"
-        app:srcCompat="@drawable/vekt_r_ak_ll_nesne_3" />
+        app:srcCompat="@drawable/main_runningicon" />
 
     <TextView
         android:id="@+id/txt1"
