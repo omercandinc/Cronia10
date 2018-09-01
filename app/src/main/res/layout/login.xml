@@ -81,16 +81,15 @@
 
         android:id="@+id/kayitolun"
         style="@style/TextStyle3"
-        android:layout_weight="1"
-        android:layout_width="196dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
-        android:text="Hesabınız yok mu? Kayıt olun."
+        android:layout_weight="1"
         android:clickable="true"
         android:onClick="click"
-        />
+        android:text="Hesabınız yok mu? Kayıt olun." />
 
 
 
