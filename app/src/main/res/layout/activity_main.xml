@@ -37,7 +37,7 @@
         android:layout_marginTop="26dp"
         android:letterSpacing="0.08"
         android:lineSpacingMultiplier="0.96"
-        android:text="İyi geceler Barbaros"
+        android:text="İyi geceler Ömer"
         android:textColor="@color/white"
         android:textSize="18sp"
         android:textStyle="normal|bold" />
@@ -93,20 +93,21 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_eatingicon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Me"
+                    android:id="@+id/txtEat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Yemek"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -131,19 +132,20 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_readingicon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Family"
+                    android:id="@+id/txtRead"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kitap Okuma"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -172,19 +174,20 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_sleepingicon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lovely"
+                    android:id="@+id/txtSleep"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Uyku"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -210,19 +213,20 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_socialicon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Team"
+                    android:id="@+id/txtEat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sosyallik"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -251,19 +255,20 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_sporticon" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Friends"
+                    android:id="@+id/txtGym"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Spor"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -288,19 +293,20 @@ Gece koşusundasın"
                 android:layout_margin="16dp"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
-                    android:src="@drawable/login_logo" />
+                    android:background="#0000"
+                    android:src="@drawable/main_ent_travelling" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Friends"
+                    android:id="@+id/txtTravel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Seyehat"
                     android:textAlignment="center"
-                    android:textColor="@android:color/black"
-                    android:textSize="18sp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
