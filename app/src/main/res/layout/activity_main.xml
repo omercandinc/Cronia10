@@ -9,75 +9,115 @@
     android:layout_height="match_parent">
 
 
-    <ImageView
-        android:id="@+id/main_rectimage"
-        android:layout_width="match_parent"
-        android:layout_height="145dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/main_rectangle"></ImageView>
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/txt1"
-        android:layout_column="1"
-        android:layout_marginEnd="46dp"
-        android:layout_row="0"
-        app:srcCompat="@drawable/main_runningicon" />
-
-    <TextView
-        android:id="@+id/txt1"
-        android:layout_width="198dp"
-        android:layout_height="38dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="26dp"
-        android:letterSpacing="0.08"
-        android:lineSpacingMultiplier="0.96"
-        android:text="İyi geceler Ömer"
-        android:textColor="@color/white"
-        android:textSize="18sp"
-        android:textStyle="normal|bold" />
-
-    <TextView
-        android:id="@+id/txt2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/txt1"
-        android:layout_marginTop="77dp"
-        android:letterSpacing="0.08"
-        android:lineSpacingMultiplier="0.96"
-        android:text="30 dakikadır
-Gece koşusundasın"
-        android:textColor="@color/hospital_green"
-        android:textStyle="normal|bold"
-        android:textSize="18sp" />
-
-
     <GridLayout
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
-        android:layout_height="509dp"
-        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="150dp"
+        android:layout_alignParentTop="true"
         android:layout_weight="8"
         android:alignmentMode="alignMargins"
         android:columnCount="2"
         android:columnOrderPreserved="false"
-        android:paddingTop="5dp"
         android:rowCount="2">
+
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="2"
+            android:layout_marginBottom="10dp"
+            android:layout_rowSpan="2"
+            android:layout_rowWeight="1.5">
+
+
+            <LinearLayout
+                android:id="@+id/main_linear_ver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:background="@drawable/main_rectangle"
+                android:orientation="vertical">
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.8"
+                             />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="1.3"
+                            android:letterSpacing="0.08"
+                            android:lineSpacingExtra="-0.7sp"
+                            android:text="İyi geceler Barbaros"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="2.1"
+                            android:letterSpacing="0.08"
+                            android:lineSpacingExtra="-0.7sp"
+                            android:text="30 dakikadır
+Gece koşusundasın"
+                            android:textColor="@color/hospital_green"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.8"
+                             />
+
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:padding="20dp"
+                        android:src="@drawable/login_logo" />
+
+
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
 
         <!-- Row 1 -->
 
         <!-- Column 1 -->
-        <android.support.v7.widget.CardView
-            xmlns:android="http://schemas.android.com/apk/res/android"
+        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -110,7 +150,7 @@ Gece koşusundasın"
                     android:text="Yemek"
                     android:textAlignment="center"
                     android:textSize="18dp"
-                    android:textStyle="bold"/>
+                    android:textStyle="bold" />
 
             </LinearLayout>
 
@@ -327,8 +367,8 @@ Gece koşusundasın"
 
 
             <include
-            android:id="@+id/tool_bar"
-            layout="@layout/bottom_toolbar"    >
+                android:id="@+id/tool_bar"
+                layout="@layout/bottom_toolbar">
 
             </include>
 
