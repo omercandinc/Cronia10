@@ -4,15 +4,17 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+
         <color name="black">#000000</color>
         <color name="white">#ffffff</color>
-        <color name="header">#a9e8dc</color>
-
         <color name="black_two">#2c2c2c</color>
         <color name="warm_grey">#a0a0a0</color>
         <color name="light_teal">#a9e8dc</color>
         <color name="turquoise_blue">#02bec4</color>
         <color name="teal_blue">#0284a8</color>
+        <color name="hospital_green">#8fe687</color>
+        <color name="dark">#152330</color>
+
 
 
 </resources>

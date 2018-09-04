@@ -45,7 +45,7 @@
         android:layout_marginBottom="188dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Deniz" />
 
     <Button
         android:id="@+id/button_login"
@@ -59,25 +59,14 @@
         android:theme="@style/TextStyle2" />
 
     <TextView
-        android:id="@+id/merhaba"
-        style="@style/TextStyle"
+        style="@style/TextStyle4"
         android:layout_width="266dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="35dp"
-        android:layout_marginTop="25dp"
-        android:text="Merhaba,
-Cronia’ya hoş geldin" />
-
-    <TextView
-        style="@style/TextStyle4"
-        android:layout_width="266dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/merhaba"
-        android:layout_marginTop="118.3dp"
-        android:text="Kaldığınız yerden devam edin" /> /
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="117dp"
+        android:text="Merhaba Cronia'ya hoş geldin!" />
 
     <ImageView
         android:id="@+id/login_bottom"
@@ -92,14 +81,15 @@ Cronia’ya hoş geldin" />
 
         android:id="@+id/kayitolun"
         style="@style/TextStyle3"
-        android:layout_weight="1"
-        android:layout_width="196dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="0dp"
-        android:text="Hesabınız yok mu? Kayıt olun."
-        />
+        android:layout_weight="1"
+        android:clickable="true"
+        android:onClick="click"
+        android:text="Hesabınız yok mu? Kayıt olun." />
 
 
 

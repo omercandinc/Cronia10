@@ -1,0 +1,49 @@
+<android.support.v7.widget.Toolbar  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/actionbarT"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:theme="@style/Base.Theme.AppCompat.CompactMenu" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_bottomtoolbar_bg"
+        android:orientation="horizontal"
+
+        android:paddingBottom="9dp"
+        android:paddingTop="12dp">
+
+        <ImageButton
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000"
+            app:srcCompat="@drawable/main_dashboardbutton" />
+
+        <ImageButton
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000"
+            app:srcCompat="@drawable/main_homebutton" />
+
+        <ImageButton
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#0000"
+            app:srcCompat="@drawable/main_profilebutton" />
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.Toolbar>
