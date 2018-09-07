@@ -16,26 +16,29 @@
         android:paddingBottom="9dp"
         android:paddingTop="12dp">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/main_dashboardbutton" />
+            app:srcCompat="@drawable/main_dashboardbutton"
+            android:background="#fff"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/main_homebutton" />
+            app:srcCompat="@drawable/main_homebutton"
+            android:background="#fff"/>
 
-        <ImageView
+        <ImageButton
             android:id="@+id/imageView6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            app:srcCompat="@drawable/main_profilebutton" />
+            app:srcCompat="@drawable/main_profilebutton"
+            android:background="#fff"/>
 
     </LinearLayout>
 
