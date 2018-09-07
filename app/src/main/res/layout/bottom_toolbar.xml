@@ -37,7 +37,6 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/main_profilebutton" />
 
-
     </LinearLayout>
 
 
