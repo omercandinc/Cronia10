@@ -17,30 +17,28 @@
         android:paddingTop="12dp">
 
         <ImageButton
-            android:id="@+id/imageView4"
+            android:id="@+id/Footer_ImgBtn_Dashboard"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0000"
+            android:background="#fff"
             app:srcCompat="@drawable/main_dashboardbutton" />
 
         <ImageButton
-            android:id="@+id/imageView3"
+            android:id="@+id/Footer_ImgBtn_Home"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0000"
+            android:background="#fff"
             app:srcCompat="@drawable/main_homebutton" />
 
         <ImageButton
-            android:id="@+id/imageView6"
+            android:id="@+id/Footer_ImgBtn_Profile"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#0000"
+            android:background="#fff"
             app:srcCompat="@drawable/main_profilebutton" />
-
-
 
     </LinearLayout>
 

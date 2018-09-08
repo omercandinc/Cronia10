@@ -161,6 +161,11 @@ Gece koşusundasın"
         </android.support.v7.widget.CardView>
 
         <!-- Column 2 -->
+
+
+        <!-- Row 2 -->
+
+        <!-- Column 1 -->
         <android.support.v7.widget.CardView
             android:id="@+id/card_read"
             android:layout_width="0dp"
@@ -197,10 +202,6 @@ Gece koşusundasın"
 
         </android.support.v7.widget.CardView>
 
-
-        <!-- Row 2 -->
-
-        <!-- Column 1 -->
         <android.support.v7.widget.CardView
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -354,14 +355,12 @@ Gece koşusundasın"
             android:layout_height="0dp"
             android:layout_columnSpan="2"
             android:layout_columnWeight="1"
-            android:layout_rowWeight="0.5">
+            android:layout_rowWeight="0.4">
 
 
             <include
                 android:id="@+id/tool_bar"
-                layout="@layout/bottom_toolbar">
-
-            </include>
+                layout="@layout/bottom_toolbar"></include>
 
         </android.support.v7.widget.CardView>
 
