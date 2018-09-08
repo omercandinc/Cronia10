@@ -198,6 +198,13 @@ Gece koşusundasın"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
+                <Chronometer
+                    android:id="@+id/mChronometer_food2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -234,6 +241,13 @@ Gece koşusundasın"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
+                <Chronometer
+                    android:id="@+id/mChronometer_food3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -269,6 +283,13 @@ Gece koşusundasın"
                     android:textAlignment="center"
                     android:textSize="18dp"
                     android:textStyle="bold" />
+
+                <Chronometer
+                    android:id="@+id/mChronometer_food4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textAlignment="center" />
 
             </LinearLayout>
 
@@ -310,6 +331,13 @@ Gece koşusundasın"
                     android:textSize="18dp"
                     android:textStyle="bold" />
 
+                <Chronometer
+                    android:id="@+id/mChronometer_food5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textAlignment="center" />
+
             </LinearLayout>
 
         </android.support.v7.widget.CardView>
@@ -343,6 +371,13 @@ Gece koşusundasın"
                     android:textAlignment="center"
                     android:textSize="18dp"
                     android:textStyle="bold" />
+
+                <Chronometer
+                    android:id="@+id/mChronometer_food6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="false"
+                    android:textAlignment="center" />
 
             </LinearLayout>
 
