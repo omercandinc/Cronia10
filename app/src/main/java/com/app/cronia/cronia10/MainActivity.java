@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private int durum= 0;
     private String deneme;
     private ImageButton Footer_ImgBtn_Dashboard;
+    private ImageButton Footer_ImgBtn_Home;
+    private ImageButton Footer_ImgBtn_Profile;
 
 
 
@@ -37,12 +39,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         card_food= (CardView) findViewById(R.id.card_food);
         card_read = (CardView) findViewById(R.id.card_read);
         Footer_ImgBtn_Dashboard = (ImageButton) findViewById(R.id.Footer_ImgBtn_Dashboard);
+        Footer_ImgBtn_Home = (ImageButton) findViewById(R.id.Footer_ImgBtn_Home);
+        Footer_ImgBtn_Profile = (ImageButton) findViewById(R.id.Footer_ImgBtn_Profile);
 
 
         //click listener to the cards
         card_food.setOnClickListener(this);
         card_read.setOnClickListener(this);
         Footer_ImgBtn_Dashboard .setOnClickListener(this);
+        Footer_ImgBtn_Home .setOnClickListener(this);
+        Footer_ImgBtn_Profile .setOnClickListener(this);
 
         //chronometers invisible
         mChronometer_food.setVisibility(View.INVISIBLE);
@@ -91,6 +97,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent i=new Intent();
                 i.setClass(MainActivity.this,Dashboard.class);
                 startActivity(i);
+                Footer_ImgBtn_Dashboard.setImageResource(R.drawable.main_dashboardbutton_on);
+                Footer_ImgBtn_Home.setImageResource(R.drawable.main_homebutton_off);
+
 
 
         }

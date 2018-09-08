@@ -25,7 +25,7 @@
             android:foreground="?attr/selectableItemBackground"
             android:stateListAnimator="@drawable/lift_on_touch"
             android:clickable="true"
-            app:srcCompat="@drawable/main_dashboardbutton" />
+            app:srcCompat="@drawable/main_dashboardbutton_off" />
 
         <ImageButton
             android:id="@+id/Footer_ImgBtn_Home"
@@ -33,10 +33,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#fff"
+            android:clickable="true"
             android:foreground="?attr/selectableItemBackground"
             android:stateListAnimator="@drawable/lift_on_touch"
-            android:clickable="true"
-            app:srcCompat="@drawable/main_homebutton" />
+            app:srcCompat="@drawable/main_homebutton_on" />
 
         <ImageButton
             android:id="@+id/Footer_ImgBtn_Profile"
@@ -44,10 +44,10 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="#fff"
+            android:clickable="true"
             android:foreground="?attr/selectableItemBackground"
             android:stateListAnimator="@drawable/lift_on_touch"
-            android:clickable="true"
-            app:srcCompat="@drawable/main_profilebutton" />
+            app:srcCompat="@drawable/main_profilebutton_off" />
 
     </LinearLayout>
 
