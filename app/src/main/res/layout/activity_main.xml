@@ -121,6 +121,9 @@ Gece koşusundasın"
             android:layout_marginBottom="1dp"
             android:layout_marginRight="1dp"
             android:layout_rowWeight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
@@ -138,7 +141,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_eatingicon" />
 
                 <TextView
-                    android:id="@+id/txtEat"
+                    android:id="@+id/txtFood"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Yemek"
@@ -146,17 +149,11 @@ Gece koşusundasın"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/txtTimer_food"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="tx"
-                    android:textAlignment="center" />
-
                 <Chronometer
                     android:id="@+id/mChronometer_food"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:clickable="false"
                     android:textAlignment="center" />
 
             </LinearLayout>
