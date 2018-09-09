@@ -23,8 +23,9 @@
 
         <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="0dp"
+            android:id="@+id/main_cardvw_header"
 
+            android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnSpan="2"
             android:layout_columnWeight="2"
@@ -127,6 +128,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_1_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -134,6 +136,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_1_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -141,7 +144,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_eatingicon" />
 
                 <TextView
-                    android:id="@+id/txtFood"
+                    android:id="@+id/main_txt_1_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Yemek"
@@ -176,6 +179,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_1_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -183,6 +187,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_1_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -190,7 +195,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_readingicon" />
 
                 <TextView
-                    android:id="@+id/txtRead"
+                    android:id="@+id/main_txt_1_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Kitap Okuma"
@@ -210,6 +215,7 @@ Gece koşusundasın"
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
+            android:id="@+id/main_cardvw_2_1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -219,6 +225,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -226,6 +233,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_2_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -233,7 +241,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_sleepingicon" />
 
                 <TextView
-                    android:id="@+id/txtSleep"
+                    android:id="@+id/main_txt_2_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Uyku"
@@ -254,6 +262,7 @@ Gece koşusundasın"
 
         <!-- Column 2 -->
         <android.support.v7.widget.CardView
+            android:id="@+id/main_cardvw_2_2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -262,6 +271,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_2_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -269,6 +279,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_2_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -276,7 +287,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_socialicon" />
 
                 <TextView
-                    android:id="@+id/txtEat"
+                    android:id="@+id/main_txt_2_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Sosyallik"
@@ -301,6 +312,7 @@ Gece koşusundasın"
         <!-- Column 1 -->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/main_cardvw_3_1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -309,6 +321,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -316,6 +329,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_3_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -323,7 +337,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_sporticon" />
 
                 <TextView
-                    android:id="@+id/txtGym"
+                    android:id="@+id/main_txt_3_1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Spor"
@@ -343,6 +357,7 @@ Gece koşusundasın"
         </android.support.v7.widget.CardView>
 
         <android.support.v7.widget.CardView
+            android:id="@+id/main_cardvw_3_2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
@@ -350,6 +365,7 @@ Gece koşusundasın"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
+                android:id="@+id/main_linear_3_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|center_vertical"
@@ -357,6 +373,7 @@ Gece koşusundasın"
                 android:orientation="vertical">
 
                 <ImageButton
+                    android:id="@+id/main_btn_3_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center_horizontal"
@@ -364,7 +381,7 @@ Gece koşusundasın"
                     android:src="@drawable/main_ent_travelling" />
 
                 <TextView
-                    android:id="@+id/txtTravel"
+                    android:id="@+id/main_txt_3_2"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Seyehat"
@@ -386,6 +403,7 @@ Gece koşusundasın"
         <!-- Column 2 -->
 
         <android.support.v7.widget.CardView
+            android:id="@+id/main_cardvw_footer"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_columnSpan="2"
@@ -394,7 +412,7 @@ Gece koşusundasın"
 
 
             <include
-                android:id="@+id/tool_bar"
+                android:id="@+id/main_toolbar_footer"
                 layout="@layout/bottom_toolbar"></include>
 
         </android.support.v7.widget.CardView>
