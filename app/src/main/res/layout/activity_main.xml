@@ -153,7 +153,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food"
+                    android:id="@+id/main_chr_1_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -176,6 +176,9 @@ Gece koşusundasın"
             android:layout_columnWeight="1"
             android:layout_marginBottom="1dp"
             android:layout_rowWeight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
@@ -204,7 +207,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food2"
+                    android:id="@+id/main_chr_1_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -221,6 +224,9 @@ Gece koşusundasın"
             android:layout_columnWeight="1"
             android:layout_marginBottom="1dp"
             android:layout_marginRight="1dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:layout_rowWeight="1"
             android:background="@drawable/cardview_border">
 
@@ -250,7 +256,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food3"
+                    android:id="@+id/main_chr_2_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -267,6 +273,9 @@ Gece koşusundasın"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_marginBottom="1dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:layout_rowWeight="1"
             android:background="@drawable/cardview_border">
 
@@ -296,7 +305,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food4"
+                    android:id="@+id/main_chr_2_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -318,6 +327,9 @@ Gece koşusundasın"
             android:layout_columnWeight="1"
             android:layout_marginRight="1dp"
             android:layout_rowWeight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
@@ -346,7 +358,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food5"
+                    android:id="@+id/main_chr_3_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
@@ -362,6 +374,9 @@ Gece koşusundasın"
             android:layout_height="0dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:foreground="?attr/selectableItemBackground"
+            android:stateListAnimator="@drawable/lift_on_touch"
+            android:clickable="true"
             android:background="@drawable/cardview_border">
 
             <LinearLayout
@@ -390,7 +405,7 @@ Gece koşusundasın"
                     android:textStyle="bold" />
 
                 <Chronometer
-                    android:id="@+id/mChronometer_food6"
+                    android:id="@+id/main_chr_3_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:clickable="false"
