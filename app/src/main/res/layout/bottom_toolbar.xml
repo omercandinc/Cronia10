@@ -17,7 +17,7 @@
         android:paddingTop="12dp">
 
         <ImageButton
-            android:id="@+id/Footer_ImgBtn_Dashboard"
+            android:id="@+id/footer_imgbtn_dashboard"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -28,7 +28,7 @@
             app:srcCompat="@drawable/main_dashboardbutton_off" />
 
         <ImageButton
-            android:id="@+id/Footer_ImgBtn_Home"
+            android:id="@+id/footer_imgbtn_home"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -39,7 +39,7 @@
             app:srcCompat="@drawable/main_homebutton_on" />
 
         <ImageButton
-            android:id="@+id/Footer_ImgBtn_Profile"
+            android:id="@+id/footer_imgbtn_profile"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"

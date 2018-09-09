@@ -13,14 +13,14 @@ import android.widget.TextView;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    private CardView card_food,card_read;
+    private CardView main_cardvw_1_1,main_cardvw_1_2;
     private int Cardview_ID;
     private Chronometer mChronometer_food;
     private int durum= 0;
     private String deneme;
-    private ImageButton Footer_ImgBtn_Dashboard;
-    private ImageButton Footer_ImgBtn_Home;
-    private ImageButton Footer_ImgBtn_Profile;
+    private ImageButton footer_imgbtn_dashboard;
+    private ImageButton footer_imgbtn_home;
+    private ImageButton footer_imgbtn_profile;
 
 
 
@@ -36,19 +36,19 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mChronometer_food = (Chronometer) findViewById(R.id.mChronometer_food);
 
         //cardview nesnelerinin tanımları
-        card_food= (CardView) findViewById(R.id.card_food);
-        card_read = (CardView) findViewById(R.id.card_read);
-        Footer_ImgBtn_Dashboard = (ImageButton) findViewById(R.id.Footer_ImgBtn_Dashboard);
-        Footer_ImgBtn_Home = (ImageButton) findViewById(R.id.Footer_ImgBtn_Home);
-        Footer_ImgBtn_Profile = (ImageButton) findViewById(R.id.Footer_ImgBtn_Profile);
+        main_cardvw_1_1= (CardView) findViewById(R.id.main_cardvw_1_1);
+        main_cardvw_1_2 = (CardView) findViewById(R.id.main_cardvw_1_2);
+        footer_imgbtn_dashboard = (ImageButton) findViewById(R.id.footer_imgbtn_dashboard);
+        footer_imgbtn_home = (ImageButton) findViewById(R.id.footer_imgbtn_home);
+        footer_imgbtn_profile = (ImageButton) findViewById(R.id.footer_imgbtn_profile);
 
 
         //click listener to the cards
-        card_food.setOnClickListener(this);
-        card_read.setOnClickListener(this);
-        Footer_ImgBtn_Dashboard .setOnClickListener(this);
-        Footer_ImgBtn_Home .setOnClickListener(this);
-        Footer_ImgBtn_Profile .setOnClickListener(this);
+        main_cardvw_1_1.setOnClickListener(this);
+        main_cardvw_1_2.setOnClickListener(this);
+        footer_imgbtn_dashboard .setOnClickListener(this);
+        footer_imgbtn_home .setOnClickListener(this);
+        footer_imgbtn_profile .setOnClickListener(this);
 
         //chronometers invisible
         mChronometer_food.setVisibility(View.INVISIBLE);
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
 
 
-            case R.id.card_food :
+            case R.id.main_cardvw_1_1 :
 
                 if ( durum == 0)
                 {
@@ -92,13 +92,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
 
-            case R.id.Footer_ImgBtn_Dashboard :
+            case R.id.footer_imgbtn_dashboard :
 
                 Intent i=new Intent();
                 i.setClass(MainActivity.this,Dashboard.class);
                 startActivity(i);
-                Footer_ImgBtn_Dashboard.setImageResource(R.drawable.main_dashboardbutton_on);
-                Footer_ImgBtn_Home.setImageResource(R.drawable.main_homebutton_off);
+                footer_imgbtn_dashboard.setImageResource(R.drawable.main_dashboardbutton_on);
+                footer_imgbtn_home.setImageResource(R.drawable.main_homebutton_off);
 
 
 
